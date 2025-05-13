@@ -1,0 +1,52 @@
+{
+  "steps": [
+    {
+      "step_name": "Acknowledge the Dispute",
+      "step_number": 1,
+      "rubric": {
+        "description": "Respond within 1 business day with empathy.",
+        "example_message": "Thank you for letting us know. I’m really sorry this has caused frustration."
+      }
+    },
+    {
+      "step_name": "Gather Full Details",
+      "step_number": 2,
+      "rubric": {
+        "description": "Ask for necessary details like order number, issue description.",
+        "example_message": "Could you provide your order number and briefly describe what happened?"
+      }
+    },
+    {
+      "step_name": "Investigate the Issue",
+      "step_number": 3,
+      "rubric": {
+        "description": "Check internal systems, logs, and consult teams if needed.",
+        "example_message": "Document everything and cross-check customer claims with available data."
+      }
+    },
+    {
+      "step_name": "Clarify Findings",
+      "step_number": 4,
+      "rubric": {
+        "description": "Communicate discoveries in a neutral tone.",
+        "example_message": "After reviewing, it looks like the charge was applied correctly based on terms."
+      }
+    },
+    {
+      "step_name": "Offer Resolution",
+      "step_number": 5,
+      "rubric": {
+        "description": "Propose a solution based on policy and investigation.",
+        "example_message": "As a one-time courtesy, we’ve issued a $15 credit to your account."
+      }
+    },
+    {
+      "step_name": "Confirm Outcome",
+      "step_number": 6,
+      "rubric": {
+        "description": "Confirm customer satisfaction. Escalate if unresolved.",
+        "example_message": "I’ve processed the credit. Please let me know if there’s anything else I can assist with."
+      }
+    }
+  ]
+}

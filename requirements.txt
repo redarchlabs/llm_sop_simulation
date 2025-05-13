@@ -1,0 +1,13 @@
+langgraph
+langchain
+qdrant-client
+neo4j
+openai  # needed only if you want to test OpenAI fallback
+dotenv
+ollama
+sentence_transformers
+
+langchain-openai
+tiktoken
+pydantic
+python-dotenv

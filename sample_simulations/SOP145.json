@@ -1,0 +1,52 @@
+{
+  "steps": [
+    {
+      "step_name": "Acknowledge Request",
+      "step_number": 1,
+      "rubric": {
+        "description": "Respond to the customer within 1 business day. Express empathy and intent to resolve.",
+        "example_message": "Thank you for reaching out. I’m sorry to hear about the issue — I’ll make sure we get this taken care of for you."
+      }
+    },
+    {
+      "step_name": "Collect Information",
+      "step_number": 2,
+      "rubric": {
+        "description": "Request necessary information like order number and reason for refund.",
+        "example_message": "Could you share your order number and a brief summary of the issue so we can get started?"
+      }
+    },
+    {
+      "step_name": "Validate Eligibility",
+      "step_number": 3,
+      "rubric": {
+        "description": "Check if the order qualifies for a refund as per company policy.",
+        "example_message": "This qualifies for a refund and I’ve submitted the request. You can expect an update within 24 hours."
+      }
+    },
+    {
+      "step_name": "Set Expectations",
+      "step_number": 4,
+      "rubric": {
+        "description": "Clearly communicate refund timeline, method, and any required actions to the customer.",
+        "example_message": "We’ll issue the refund to your original payment method within 3–5 business days."
+      }
+    },
+    {
+      "step_name": "Communicate Updates",
+      "step_number": 5,
+      "rubric": {
+        "description": "Notify the customer about major steps in the refund process.",
+        "example_message": "We’ve completed the refund and you should see it reflected in your account soon."
+      }
+    },
+    {
+      "step_name": "Confirm Refund",
+      "step_number": 6,
+      "rubric": {
+        "description": "Send confirmation of the processed refund including amount and timing.",
+        "example_message": "Your refund of $42.95 has been issued. It should appear on your statement within 3–5 business days."
+      }
+    }
+  ]
+}

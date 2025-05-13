@@ -1,0 +1,84 @@
+{
+    "steps": [
+      {
+        "step_name": "Receive and Verify Return Shipment",
+        "step_number": 1,
+        "rubric": {
+          "description": "Match package against RMA,confirm integrity",
+          "example_message": "Scan RMA, check package, note damage"
+        }
+      },
+      {
+        "step_name": "Log Return in System",
+        "step_number": 2,
+        "rubric": {
+          "description": "Enter return details into WMS/ERP",
+          "example_message": "Include tracking, source, reason"
+        }
+      },
+      {
+        "step_name": "Open and Inspect Packaging",
+        "step_number": 3,
+        "rubric": {
+          "description": "Carefully examine returned items",
+          "example_message": "Check for completeness, any issues"
+        }
+      },
+      {
+        "step_name": "Evaluate Item Condition",
+        "step_number": 4,
+        "rubric": {
+          "description": "Assign return grade (A-D)",
+          "example_message": "Grade based on item condition"
+        }
+      },
+      {
+        "step_name": "Take Photos and Notes (Grade B-D)",
+        "step_number": 5,
+        "rubric": {
+          "description": "Document non-A grade items with photos and notes",
+          "example_message": "Attach notes and photos for records"
+        }
+      },
+      {
+        "step_name": "Determine Next Action",
+        "step_number": 6,
+        "rubric": {
+          "description": "Decide next steps based on item grade",
+          "example_message": "Restock, repair, quarantine, or dispose"
+        }
+      },
+      {
+        "step_name": "Clean and Repackage (if restockable)",
+        "step_number": 7,
+        "rubric": {
+          "description": "Prepare items for restocking if applicable",
+          "example_message": "Wipe, rebag, rebox as needed"
+        }
+      },
+      {
+        "step_name": "Update Inventory Records",
+        "step_number": 8,
+        "rubric": {
+          "description": "Record disposition in WMS with notes",
+          "example_message": "Update stock levels and details"
+        }
+      },
+      {
+        "step_name": "Move Items to Designated Locations",
+        "step_number": 9,
+        "rubric": {
+          "description": "Physically relocate items based on status",
+          "example_message": "Label, move to appropriate areas"
+        }
+      },
+      {
+        "step_name": "Escalate Exceptions",
+        "step_number": 10,
+        "rubric": {
+          "description": "Notify supervisor for specific cases",
+          "example_message": "Flag high-value, fraudulent returns"
+        }
+      }
+    ]
+  }
